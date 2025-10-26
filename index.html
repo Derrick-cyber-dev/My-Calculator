@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeKTech Calculatrice</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="title">DeKTech Calculatrice</h1>
+    </header>
+
+    <main class="container">
+
+        <!-- 🔽 Result will be shown here -->
+        <div id="result"></div>
+
+        <form action="" method="GET" class="calculator-form">
+            <input type="text" name="num1" placeholder="Écris le premier numéro" required />
+            <input type="text" name="num2" placeholder="Écris le deuxième numéro" required />
+
+            <select name="opérateur" required>
+                <option value="">Choisir une opération</option>
+                <option value="Ajouter ➕">Ajouter ➕</option>
+                <option value="soustraire ➖">Soustraire ➖</option>
+                <option value="Multiplier ✖️">Multiplier ✖️</option>
+                <option value="Diviser ➗">Diviser ➗</option>
+            </select>
+
+            <div class="buttons">
+                <button type="submit" name="submit">Calculer</button>
+                <button type="reset" class="reset">Réinitialiser</button>
+            </div>
+        </form>
+
+        <div class="footer-text">
+            <h4>Construit par DeKTech <span>🧑‍💻❤️</span></h4>
+            <footer>© 2025 Tous droits réservés</footer>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

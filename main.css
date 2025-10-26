@@ -1,0 +1,88 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #0d6efd;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-form input,
+.calculator-form select,
+.calculator-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculator-form select {
+  background-color: #fff;
+}
+
+.calculator-form button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.calculator-form .reset {
+  background-color: #dc3545;
+}
+
+.calculator-form button:hover {
+  background-color: #084298;
+}
+
+.calculator-form .reset:hover {
+  background-color: #b02a37;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #0d6efd;
+  font-size: 25px;
+  text-align: center;
+}
